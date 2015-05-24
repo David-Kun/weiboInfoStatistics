@@ -13,6 +13,11 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.bigdata.util.HadoopConfig;
 
+/**
+ * 微博数据预处理
+ * @author David
+ *用户的关注关系
+ */
 public class PreDeal {
 	private static class PreDealMapper extends Mapper<LongWritable, Text, Text, Text>{
 
